@@ -32,7 +32,7 @@ const NewCollection = () => {
       image:
         "https://img.freepik.com/premium-photo/elegant-sexy-asian-woman-jeans-white-t-shirt_149155-3671.jpg?w=360",
       title: "White T-Shirt",
-      subTitle: "Dlick Fit!",
+      subTitle: "Slick Fit!",
       price: 499,
       id:'1004'
     },
