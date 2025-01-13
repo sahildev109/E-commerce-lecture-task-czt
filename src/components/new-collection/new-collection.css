@@ -5,6 +5,7 @@
 }
 
 .list-cards {
+margin-bottom: 80px;
   display: flex;
   flex-wrap: wrap;
   gap: 25px;

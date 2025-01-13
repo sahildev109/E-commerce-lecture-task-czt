@@ -1,11 +1,14 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 25px;
+  align-items: center;
+  padding: 30px;
+
 }
 
 .navbar-links a {
   all: unset;
+  
   color: black;
   font-weight: 600;
   cursor: pointer;
@@ -13,10 +16,26 @@
 
 .navbar-links {
   display: flex;
-  gap: 30px;
+  gap: 34px;
 }
 
 .navbar-logo {
-  font-size: 20px;
-  margin-left: -161px;
+margin-right: 150px;
 }
+
+.navbar-user-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+}
+.navbar-user-info>button{
+  background: transparent;
+  padding: 0;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+
+}
+

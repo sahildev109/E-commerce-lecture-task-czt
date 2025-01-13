@@ -14,16 +14,36 @@
 }
 
 .hero-title {
+  width: calc(100% - 25px);
   font-size: 40px;
   color: white;
   position: absolute;
   bottom: 50px;
-  left: 20px;
+  left: 25px;
   font-size: 100px;
 }
 
 .hero-sub {
   font-size: 30px;
   font-weight: 300;
-  margin-top: -30px;
+  
+ 
+}
+.hero1{
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+}
+.hero1>button{
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 10px 40px;
+  background-color: #fff;
+  cursor: pointer;
+  border: none;
+  margin-right: 20px;
+}
+.hero1>button:hover{
+  background-color: #c6c4c4;
 }

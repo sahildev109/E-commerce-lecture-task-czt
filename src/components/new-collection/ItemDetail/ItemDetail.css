@@ -1,0 +1,39 @@
+.mainC{
+    display: flex;
+    padding-right: 40px;
+    gap: 32px;
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 10px;
+    overflow: hidden;
+ 
+   
+}
+.mainC1{
+    display: flex;
+    width: 100vw;
+    height: 100vh; 
+    justify-content: center;
+    align-items: center;
+}
+.img1{
+   
+  padding: 0;
+  margin: 0;
+  line-height: 0;
+}
+img{
+    height: 700px;
+}
+button{
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px 40px;
+    background-color: #fff;
+    cursor: pointer;
+    border: 1px solid black;
+   
+  }
+  button:hover{
+    background-color: #c6c4c4;
+  }
